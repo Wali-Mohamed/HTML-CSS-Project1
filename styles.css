@@ -46,6 +46,7 @@ ul {
 }
 
 
+
 li {
     text-decoration: none;
 }
@@ -53,6 +54,7 @@ li {
 a {
     text-decoration: none;
     color: white;
+    
 } 
 
 .top-area {
@@ -98,7 +100,7 @@ p {
     margin-top: 20px;
 }
 .button:hover {
-    background-color: #ef744b;
+    background-color: #f34105;
 }
 
 .button:active {
@@ -149,7 +151,7 @@ p {
 
 .project-image {
     margin-top: 25px;
-    width: 250px;
+    width: 150px;
     border-radius: 125px;
 }
 hr {
@@ -170,39 +172,47 @@ hr {
 .toggle-btn:focus{
     outline: 0;
 }
+.films iframe{
+    display:block;
+    width: 90%;
+    height:1000px;
+    margin:20px auto;
+    
+}
 
 @media only screen and (max-width: 1000px) {
     .project-container {
         display: flex;
         flex-wrap: wrap;
     }
-    
-.toggle-btn {
-    display: block;
-    border: 0;
-    background-color: transparent;
-    color: white;
-    font-size: 30px;
-    margin: 20px;
-    align-self: flex-end;
-}
-ul {
-    display: none;
-    background-color: #2b2c38;
-    margin: 0ppx;
-}
 
-ul.show {
-    display: block;
-}
+    .toggle-btn {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
 
-nav {
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: #2b2c38;
-}
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0ppx;
+    }
 
-.logo {
-    display: none;
-}
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction:column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
+    }
 }
