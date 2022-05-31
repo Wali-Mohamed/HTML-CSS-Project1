@@ -1,6 +1,208 @@
-section{
-    background-color:red;
-    height: 500px;
-    width: 200px;
+/* font-family: 'League Spartan', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Slab', serif; */
+/*  */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+#codew {
+    color: white;
+}
+section {
+    background-color: white;
     
+}
+.top {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+} 
+
+.top-area {
+    display: flex;
+    height:100%;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.top-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+} 
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.top-text {
+    margin-left: 80px;
+
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    background-color: coral;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+.socials {
+    padding-bottom: 200px;
+}
+.social{
+    margin: 20px;
+}
+.main1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.photo {
+    width: 300px;
+    height:300px;
+    border-radius: 150px;
+    margin-left: 80px;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}  
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+
+.toggle-btn{
+    display: none;
+}
+
+.toggle-btn:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+.toggle-btn {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+}
+ul {
+    display: none;
+    background-color: #2b2c38;
+    margin: 0ppx;
+}
+
+ul.show {
+    display: block;
+}
+
+nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #2b2c38;
+}
+
+.logo {
+    display: none;
+}
 }
