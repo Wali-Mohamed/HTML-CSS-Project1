@@ -8,9 +8,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
-#codew {
-    color: white;
-}
+
+
 section {
     background-color: white;
     
@@ -33,16 +32,31 @@ nav {
     justify-content: space-between;
 }
 .logo {
-    height: 80px;
-    margin: 30px;
+    height: 77px;
+    margin: 15px;
+
 }
 
 ul {
     display: flex;
     list-style-type: none;
     width: 500px;
-    justify-content: space-around;
+    justify-content:space-around;
     font-size: 30px;
+}
+#nav-list2 {
+    font-size:20px;
+    width:1000px;
+    justify-content:space-between;
+    margin-left: 35px;
+    
+}
+#nav-list2 li {
+    width: 210px;
+    
+}
+#nav-list2 li a{
+    color: rgb(230, 115, 20);
 }
 
 
@@ -100,7 +114,12 @@ p {
     margin-top: 20px;
 }
 .button:hover {
-    background-color: #f34105;
+    background-color: #c24a1a;
+    transform: scale(1.2);
+}
+#nav-list a:hover {
+     color:#f66636;
+     font-size:35px ;
 }
 
 .button:active {
@@ -175,7 +194,8 @@ hr {
 .films iframe{
     display:block;
     width: 90%;
-    height:1000px;
+    min-height:500px ;
+    height:80%;
     margin:20px auto;
     
 }
@@ -183,7 +203,7 @@ hr {
 @media only screen and (max-width: 1000px) {
     .project-container {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
     }
 
     .toggle-btn {
