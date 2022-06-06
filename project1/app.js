@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       cards[optionOneId].setAttribute('src', 'images1/blank.png');
       cards[optionTwoId].setAttribute('src', 'images1/blank.png');
-      alert('Sorry, try again')
+      // alert('Sorry, try again')
       lost++;
       console.log(lost);
     }
